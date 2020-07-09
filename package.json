@@ -1,6 +1,6 @@
 {
   "name": "follow_branch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Autometically merge branch when followed branch is pushed",
   "main": "index.js",
   "scripts": {
