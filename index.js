@@ -10,6 +10,6 @@ const context = github.context;
 
 const { owner, repo } = context.repo;
 
-octokit.merge({ owner, repo, base, head }).catch((error) => {
+octokit.repos.merge({ owner, repo, base, head }).catch((error) => {
   core.setFailed(`Failed to merge branch: ${error}`);
 });
