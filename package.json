@@ -1,0 +1,23 @@
+{
+  "name": "follow_branch",
+  "version": "1.0.0",
+  "description": "Autometically merge branch when followed branch is pushed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toysmoon/follow_branch.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toysmoon/follow_branch.git/issues"
+  },
+  "homepage": "https://github.com/toysmoon/follow_branch.git#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.1.1"
+  }
+}

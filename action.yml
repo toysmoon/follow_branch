@@ -1,0 +1,18 @@
+name: 'Follow branch'
+description: 'Autometically merge branch when followed branch is pushed'
+inputs:
+  following-branch:
+    description: Following branch name.
+    required: true
+  target-branch:
+    description: Branch name will autometically merged.
+    required: true
+  github-token:
+    description: GitHub WebHook Secret Token
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'git-branch'
+  color: 'blue'
