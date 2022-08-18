@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/toysmoon/follow_branch.git#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^2.1.1"
   }
 }
